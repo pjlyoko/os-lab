@@ -6,7 +6,7 @@ Each catalog is another set of tasks (2, usually) I had to prepare.
 ## Mar 20, 2019
 Working with symbolic and hard links.
 - [hard-to-symbolic](links/01-hard-to-symbolic.bash) — in a given folder change all the hard links linking to files in the same folder to symbolic links (minding the same files).
-- [copy-files-minding-links](links/02-copy-files-minding-links) — copy files from one folder to another (script parameter) in a way that symbolic links from the first catalog are still correct in the second catalog.
+- [copy-files-minding-links](links/02-copy-files-minding-links.bash) — copy files from one folder to another (script parameter) in a way that symbolic links from the first catalog are still correct in the second catalog.
 
 ## Mar 6, 2019
 First laboratory, tasks from [the list](http://www.zsk.ict.pwr.wroc.pl/zsk/repository/dydaktyka/so/so_lab1.pdf).
