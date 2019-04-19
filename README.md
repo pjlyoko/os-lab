@@ -3,13 +3,18 @@ This repository is used to publish the code I made for _Operating systems 2_ 
 
 Each catalog is another set of tasks (2, usually) I had to prepare.
 
+## Apr 16, 2019
+Stream processing with `awk`. [Read more [PL]](awk)
+- [files-with-the-same-char-at-beginning-and-end](awk/files-with-the-same-char-at-beginning-and-end.bash) ([data-preparation](awk/data-for-files-with-the-same-char-at-beginning-and-end.bash)) — in a given catalogue find regular files which name begins and ends with the same character.
+- [files-names-as-catalogue-theyre-in](awk/files-names-as-catalogue-theyre-in.bash) ([data-preparation](awk/data-for-files-names-as-catalogue-theyre-in.bash)) — in a given catalogue find regular files which name is the same as the name of a catalogue they're in.
+
 ## Apr 3, 2019
-Working with `find`.
+Working with `find`. [Read more [PL]](find)
 - [regular-files-with-hardlinks-and-specific-privileges](find/regular-files-with-hardlinks-and-specific-privileges.bash) ([data-preparation](find/data-for-regular-files-with-hardlinks-and-specific-privileges)) — in a given catalogue find regular files having hard links, and owner of which has **no rights** to read, and anyone (regardless whether a group or the others) has rights to write.
 - [find-duplicates-and-show](find/find-duplicates-and-show) ([data-preparation](find/data-for-find-duplicates-and-show)) — in a given catalogue find regular files with the same name; if a name occurs just once, skip it.
 
 ## Mar 20, 2019
-Working with symbolic and hard links.
+Working with symbolic and hard links. [Read more [PL]](links)
 - [hard-to-symbolic](links/01-hard-to-symbolic.bash) — in a given folder change all the hard links linking to files in the same folder to symbolic links (minding the same files).
 - [copy-files-minding-links](links/02-copy-files-minding-links.bash) — copy files from one folder to another (script parameter) in a way that symbolic links from the first catalog are still correct in the second catalog.
 
