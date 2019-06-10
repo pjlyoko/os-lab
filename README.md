@@ -3,6 +3,16 @@ This repository is used to publish the code I made for _Operating systems 2_ 
 
 Each catalog is another set of tasks (2, usually) I had to prepare.
 
+## May 15, 2019
+Working on catalogue trees with Python. [Read more [PL]](python-2)
+- [python-2/l6z1.py](python-2/l6z1.py) – in a given catalogue tree find (show path) all regular files named as the catalogue they're in.
+- [python-2/l6z2.py](python-2/l6z2.py) – **NOT FINISHED** copy a catalogue tree in a way that regular files were copied as regular files, symlinks inside the tree were symlinks to files inside a new tree, and symlinks to files outside the tree were linking to the same file (eg. _do not break symlinks_).
+
+## Apr 24, 2019
+Working on filesystem with Python. [Read more [PL]](python-1)
+- [python-1/l5z1.py](python-1/l5z1.py) – in a given catalogue count files which owner has **no rights** to execute but group or others have.
+- [python-1/l5z2.py](python-1/l5z2.py) – in a given catalogue find symlinkd to regular files in that catalogue.
+
 ## Apr 16, 2019
 Stream processing with `awk`. [Read more [PL]](awk)
 - [files-with-the-same-char-at-beginning-and-end](awk/files-with-the-same-char-at-beginning-and-end.bash) ([data-preparation](awk/data-for-files-with-the-same-char-at-beginning-and-end.bash)) — in a given catalogue find regular files which name begins and ends with the same character.
